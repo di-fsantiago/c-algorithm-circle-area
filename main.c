@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <locale.h>
+#include <math.h>
 #define PI 3.14159 // Define a constante do "PI"
 
 int main() {
@@ -9,8 +10,8 @@ int main() {
 	printf("Digite o raio: ");
 	scanf("%f", &raio);
 	
-	area = PI * raio * raio;
+	area = PI * pow(raio,2);
 	
-	printf("A área é aproximadamente = %.2f\n", area);
+	printf("A área do círculo é aproximadamente = %.2f\n", area);
 	return 0;
 }
