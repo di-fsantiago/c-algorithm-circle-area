@@ -13,7 +13,7 @@ Executar através de **IDEs** instaladas na sua máquina ou de compiladores on-l
 Utilizando como exemplo, o valor raio = 5.
 ```
 Digite o raio: 5
-A área é aproximadamente = 78.54
+A área do círculo é aproximadamente = 78.54
 ```
 
 ## 05. Autor e Contato
